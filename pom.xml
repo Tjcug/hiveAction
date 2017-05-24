@@ -34,10 +34,17 @@
       </dependency>
 
       <dependency>
+          <groupId>org.apache.hive</groupId>
+          <artifactId>hive-exec</artifactId>
+          <version>${hive.version}</version>
+      </dependency>
+
+      <dependency>
           <groupId>mysql</groupId>
           <artifactId>mysql-connector-java</artifactId>
           <version>5.1.34</version>
       </dependency>
+
   </dependencies>
 
     <build>
